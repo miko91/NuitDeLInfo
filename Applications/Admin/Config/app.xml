@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<definitions>
+	<define var="db_host" value="localhost" />
+	<define var="db_name" value="human" />
+	<define var="db_user" value="root" />
+	<define var="db_user_pass" value="toor" />
+</definitions>

@@ -1,0 +1,65 @@
+/*------------------------------------------------------------------
+RESPONSIVE MEDIA QUERIES
+
+[Table of contents]
+
+1. Big landscape tablets, laptops, and desktops
+2. Tablet, landscape iPad, lo-res laptops ands desktops
+3. Smartphones, Android phones, landscape iPhone
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------ [1. Big landscape tablets, laptops, and desktops] */
+@media (min-width: 1200px) {
+    .container {width: 970px;}
+}
+@media (max-width: 1200px) {
+    .pull-left-md {float: left;}
+    .pull-right-md {float: right;}
+}
+@media (max-width: 992px) {
+    .pull-left-sm {float: left;}
+    .pull-right-sm {float: right;}
+    table.responsive-sm td {width: 100% !important; display: block; clear: both;padding: 15px;}
+    #header .logo {left: 50%;}
+    #header .contact {margin-left: -20px;}
+    #topmenu ul.navbar-nav > li > a {padding: 17px 13px; font-size: 20px;}
+    #carousel .carousel-indicators li {width: 24.7%;}
+    #carousel .carousel-indicators li .carousel-caption {padding: 15px 15px;}
+    #carousel .carousel-indicators li .carousel-caption h2 {font-size: 14px;}
+}
+
+/*------------------------------------------------------------------ [2. Tablet, landscape iPad, lo-res laptops ands desktops] */
+@media (max-width: 767px) {
+    .pull-left-xs {float: left;}
+    .pull-right-xs {float: right;}
+    .col-xxs-12 {width: 100%}
+    .media > div {width: 100%}
+    table.responsive-xs td {width: 100%; display: block; clear: both}
+    #header .logo {width: 180px;left: 55%;}
+    #topmenu {left: 0;width: 100%;margin-top: 85px;}
+    #topmenu .navbar-collapse, #topmenu .navbar-form {background: #916336;margin-top: 10px;max-height: none;padding: 10px;}
+    #topmenu ul.navbar-nav {float: left}
+    #topmenu ul.navbar-nav > li {width: 100%}
+    #topmenu ul.navbar-nav > li > a {padding: 10px; font-size: 20px;background: none;}
+    #topmenu ul.navbar-nav > li > ul {position: relative;width: 100%;}
+    #topmenu ul.navbar-nav .dropdown-menu .dropdown-menu {left: 40%;}
+    #carousel-main-wrapper {left: 0;width: 95%;}
+    #carousel .carousel-indicators {position: relative; bottom: -30px;}
+    #carousel .carousel-indicators li {width: 50%;}
+}
+
+/*------------------------------------------------------------------ [3. Smartphones, Android phones, landscape iPhone] */
+@media (max-width: 467px) {
+    .hidden-xxs {display: none!important;}
+    #header .logo {left: 58%;}
+    #carousel .carousel-indicators li {width: 118%;left: -28px;}
+    #carousel .carousel-indicators li.active {margin-top: 10px}
+    #carousel .carousel-control {top: 25%; width: 40px;}
+    #carousel .carousel-control.left {left: -40px;}
+    #carousel .carousel-control.right {right: -40px;}
+}
+@media (max-width: 360px) {
+    #header .logo {width: 110px; left: 75%;}
+    #carousel .carousel-control {display: none}
+}

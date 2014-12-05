@@ -1,0 +1,106 @@
+.margin-top-moins-5 {
+	margin-top: -15px !important;
+}
+.margin-bottom-moins-5 {
+	margin-bottom: -50px !important;
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -30px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 30px;
+}
+#footer {
+  text-align: center;
+  padding: 10px 0;
+}
+@media print {
+	{
+		font-weight: 400 !important;
+	}
+	#push {
+		height: 30px !important;
+	}
+	.cl-mont {
+		margin-top: -60px !important;
+		padding: none !important;
+	}
+	footer #footer {
+		height: 40px !important;
+		background-color:#ffffff !important;
+		border-top: none !important;
+		margin-top: 5px !important;
+		text-align: center !important;
+		line-height: 0pt !important;
+	}
+	#wrap {
+		min-height: 85% !important;
+		margin: 0 0 - 10px !important;
+	}
+	.col-xs-4 .page-header {
+		padding-bottom: 1px !important;
+		margin: 5px 0 5px !important;
+		border-bottom: 0 !important;
+	}
+
+	p {
+		line-height: 1em !important;
+		font-size: 15px !important;
+	}
+  
+	.col-xs-4 dl {
+		margin-top: none !important;
+		margin-bottom: 5px !important;
+		padding: 0 !important;
+	}
+
+	.col-xs-4 dt {
+		line-height: 12px !important;
+		margin-top: -5px !important;
+		margin-bottom: -5px !important;
+		padding: 0 !important;
+		font-weight: bolder !important;
+		color: #1d0b0b !important;
+	}
+	.col-xs-4 dd {
+		line-height: 12px !important;
+		margin-left: 0 !important;
+	}
+	.page-header h3, .page-header h3 small {
+		color: #3c7676 !important;
+	}
+	
+	.titre {
+		color: #9f5f5f !important;
+	}
+	.print h1 {
+		font-size: 57px !important;
+		font-weight: bolder;
+	}
+	h1,h2,h3,h4 {
+		margin-top: none !important;
+	}
+	h2 {
+		font-size: 31.5px !important;
+		line-height: 40px !important;
+		font-weight: bold;
+	}
+	h3 {
+		font-size: 24.5px !important;
+		line-height: 40px !important;
+		font-weight: bold;
+	}
+	h4 {
+		font-size: 17.5px !important;
+		line-height: 20px !important;
+		font-weight: bold;
+	}
+}

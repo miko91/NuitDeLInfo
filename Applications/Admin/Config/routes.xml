@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<routes>
+	<route url="/admin(\/?)" module="Dashboard" action="index" />
+	<route url="/admin/administrator" module="User" action="administrator" />
+	<route url="/admin/client(/?)" module="Client" action="index" />
+	<route url="/admin/client/([0-9]+)" module="Client" action="show" vars="id" />
+	<route url="/admin/connexion" module="Connexion" action="index" />
+	<route url="/admin/country" module="Locations" action="country" />
+	<route url="/admin/country/add" module="Locations" action="add_country" />
+	<route url="/admin/country/delete" module="Locations" action="delete_country" />
+	<route url="/admin/country/modify-([0-9]+)" module="Locations" action="update_country" vars="id" />
+	<route url="/admin/crisis" module="Crisis" action="index" />
+	<route url="/admin/logout" module="Connexion" action="logout" />
+	<route url="/admin/manager" module="User" action="manager" />
+	<route url="/admin/refuge" module="Refuge" action="index" />
+	<route url="/admin/refugee" module="User" action="refugee" />
+	<route url="/admin/zone" module="Locations" action="zone" />
+	<route url="/admin/zone/add" module="Locations" action="add_zone" />
+	<route url="/admin/zone/delete" module="Locations" action="delete_zone" />
+	<route url="/admin/zone/modify-([0-9]+)" module="Locations" action="update_zone" vars="id" />
+</routes>
